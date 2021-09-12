@@ -1,9 +1,24 @@
 import styled from 'styled-components'
 
+export const StyledContainer = styled.div`
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+
+  @media screen and (max-width: 991px) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+`
+
 export const InfoSec = styled.div`
   color: #fff;
   /* background-color: #fff; */
-  padding: 100px 0;
+  padding: 60px 0;
   background: #282a36;
 `
 
@@ -12,7 +27,7 @@ export const InfoRow = styled.div`
   margin: 0 -15px -15px --15px;
   flex-wrap: wrap;
   align-items: center;
-  flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
+  flex-direction: column;
 `
 
 export const InfoColumn = styled.div`
@@ -34,14 +49,14 @@ export const InfoColumn = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;
   }
 `
 export const TopLine = styled.div`
-  color: #ff79c6;
+  color: #f8f8f2;
   font-size: 18px;
   line-height: 16px;
   letter-spacing: 1.4px;
@@ -49,10 +64,10 @@ export const TopLine = styled.div`
 `
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
+  /* margin-bottom: 5px; */
   font-size: 48px;
-  line-height: 1.1;
-  color: #f8f8f2;
+  line-height: 1;
+  color: #8be9fd;
 `
 
 export const Subtitle = styled.p`
@@ -65,7 +80,10 @@ export const Subtitle = styled.p`
 
 export const ImgWrapper = styled.div`
   max-width: 555px;
+  margin: 0;
+  height: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
 `
 
@@ -73,8 +91,16 @@ export const Img = styled.img`
   padding-right: 0;
   border: 0;
   max-width: 100%;
+  width: 200px;
+  height: 200px;
   vertical-align: middle;
   display: inline-block;
   max-height: 500px;
-  border-radius: 3%;
+  border-radius: 50%;
+  overflow: hidden;
+`
+
+export const Name = styled.span`
+  font-size: 1.5rem;
+  color: #f1fa8c;
 `

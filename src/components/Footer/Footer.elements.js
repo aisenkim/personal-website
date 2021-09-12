@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import {GiVampireDracula} from "react-icons/all";
+import { GiVampireDracula } from 'react-icons/all'
 
 export const FooterContainer = styled.div`
   padding: 0;
@@ -9,7 +9,6 @@ export const FooterContainer = styled.div`
   justify-content: center;
   align-items: center;
 `
-
 
 export const SocialMedia = styled.section`
   /* max-width: 1000px; */
@@ -64,50 +63,61 @@ export const SocialIcons = styled.div`
 `
 
 export const SocialIconLinkFaceBook = styled.a`
-  color: #ff79c6;
+  color: #4267b2;
   font-size: 24px;
 
   &:hover {
     //color: #4b59f7;
-    color: #4267B2;
+    color: #ff79c6;
     transition: all 0.3s ease;
   }
 `
 export const SocialIconLinkTwitter = styled.a`
-  color: #ff79c6;
+  color: #00acee;
   font-size: 24px;
 
   &:hover {
-    color: #00ACEE;
+    color: #ff79c6;
     transition: all 0.3s ease;
   }
 `
 export const SocialIconLinkGithub = styled.a`
-  color: #ff79c6;
+  color: #fff;
   font-size: 24px;
 
   &:hover {
-    color: #333;
+    color: #ff79c6;
     transition: all 0.3s ease;
   }
 `
 export const SocialIconLinkLinedIn = styled.a`
-  color: #ff79c6;
+  color: #0077b5;
   font-size: 24px;
 
   &:hover {
     //color: #4b59f7;
-    color: #0077b5;
+    color: #ff79c6;
     transition: all 0.3s ease;
   }
 `
 export const SocialIconLinkInstagram = styled.a`
-  color: #ff79c6;
+  color: #ffdc80;
   font-size: 24px;
 
   &:hover {
     //color: #4b59f7;
-    color: #8a3ab9;
+    color: #ff79c6;
+    transition: all 0.3s ease;
+  }
+`
+
+export const SocialIconLinkGmail = styled.a`
+  color: #bb001b;
+  font-size: 24px;
+
+  &:hover {
+    //color: #4b59f7;
+    color: #ff79c6;
     transition: all 0.3s ease;
   }
 `
