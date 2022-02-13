@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const StyledContainer = styled.div`
   z-index: 1;
@@ -13,14 +13,14 @@ export const StyledContainer = styled.div`
     padding-right: 30px;
     padding-left: 30px;
   }
-`
+`;
 
 export const InfoSec = styled.div`
   color: #fff;
   /* background-color: #fff; */
   padding: 60px 0;
   background: #282a36;
-`
+`;
 
 export const InfoRow = styled.div`
   display: flex;
@@ -28,7 +28,7 @@ export const InfoRow = styled.div`
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
-`
+`;
 
 export const InfoColumn = styled.div`
   margin-bottom: 15px;
@@ -44,7 +44,7 @@ export const InfoColumn = styled.div`
     display: flex;
     justify-content: center;
   }
-`
+`;
 
 export const TextWrapper = styled.div`
   max-width: 540px;
@@ -54,21 +54,21 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;
   }
-`
+`;
 export const TopLine = styled.div`
   color: #f8f8f2;
   font-size: 18px;
   line-height: 16px;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
-`
+`;
 
 export const Heading = styled.h1`
   /* margin-bottom: 5px; */
   font-size: 48px;
   line-height: 1;
-  color: #8be9fd;
-`
+  color: #ff79c6;
+`;
 
 export const Subtitle = styled.p`
   max-width: 440px;
@@ -76,7 +76,7 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: #50fa7b;
-`
+`;
 
 export const ImgWrapper = styled.div`
   max-width: 555px;
@@ -85,7 +85,7 @@ export const ImgWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-`
+`;
 
 export const Img = styled.img`
   padding-right: 0;
@@ -98,9 +98,9 @@ export const Img = styled.img`
   max-height: 500px;
   border-radius: 50%;
   overflow: hidden;
-`
+`;
 
 export const Name = styled.span`
   font-size: 1.5rem;
   color: #f1fa8c;
-`
+`;
