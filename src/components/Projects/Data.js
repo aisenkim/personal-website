@@ -5,6 +5,8 @@ export const homeObjOne = {
   lightTopLine: true,
   lightTextDesc: true,
   buttonLabel: "Deployed Link",
+  descriptionTitle0: "Technologies",
+  description0: "| React | Node.js (Nest JS) | TypeORM | Postgresql | Heroku |",
   descriptionTitle1: "Why this app?",
   description1:
     "An english academy had trouble testing students over zoom classes due to the COVID-19. " +
@@ -38,15 +40,30 @@ export const homeObjTwo = {
   imgStart: "start",
   lightTopLine: false,
   lightTextDesc: false,
-  buttonLabel: "Check it Out",
-  description:
-    "We provide multiple classes for all levels. Call us any time to check for availability in space and register for a level test to check where your children's level",
-  headline: "Specialized Instructors For Elementary and Middle School Students",
-  lightText: false,
-  topLine: "EiE Manchon Campus (만촌)",
-  img: require("../../images/me.jpg").default,
+  buttonLabel: "Deployed Link",
+  descriptionTitle0: "Technologies",
+  description0:
+    "| React | Redux | Bootstrap | Spring Boot | MongoDB | AWS | Docker | NGINX |",
+  descriptionTitle1: "Why this app?",
+  description1:
+    "This project started as a warm up project for the cloud computing course. The requirements were simple but" +
+    "I went beyond the requirments by improving UI and adding more functionalities. Users can sign-up, verify email, login, play " +
+    ", and check game history. Game state is saved using sessions.",
+  descriptionTitle2: "Project experience",
+  description2:
+    "Learned Redux to easily manage state and work with predictable states. " +
+    "Application deployed on AWS EC2 instance using docker compose to run the container. Initially deployed on UpCloud server " +
+    "for the assignment but transfered to EC2 attatched to my domain. Managing multiple applications on the container using NGINX reverse " +
+    "proxy. All applications are ready to scale out easily using docker containers.",
+  descriptionTitle4: "Outcome",
+  description4:
+    "Able to learn Redux to manage state in a different way. Solidified NGINX technology to reverse proxy to different applications.",
+  headline: "Warm-Up Project for Cloud Computing(CSE 356)",
+  lightText: true,
+  topLine: "Tic Tac Toe App",
+  img: require("../../images/app_demo_ttt.jpg").default,
   alt: "Image",
-  start: "",
-  buttonLink: "https://aisenkim.github.io/academy-frontend/#/",
-  githubLink: "https://github.com/aisenkim/academy-refactor",
+  start: "true",
+  buttonLink: "https://aisencode.com/ttt",
+  githubLink: "https://github.com/aisenkim/tic-tac-toe-combined",
 };

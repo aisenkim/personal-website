@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  personal-website:
+    container_name: personal-website
+    image: personal-website
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+      - 8080
+    ports:
+      - 8080:80
